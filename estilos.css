@@ -1,0 +1,78 @@
+/* Estilos Generales */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(./img/WhatsApp\ Image\ 2022-08-15\ at\ 5.08.17\ PM.jpeg);
+}
+
+img{
+    
+    align-items: center;
+    width: 100px;
+    margin: 1px;
+}
+
+h1,
+h2 {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    height: 3px;
+    background: rgb(30, 0, 36);
+    background: rgb(0, 31, 36);
+    background: linear-gradient(90deg, rgba(0, 31, 36, 0.47524947478991597) 3%, rgba(54, 0, 62, 0.09989933473389356) 100%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+
+p {
+    color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Animacion */
+.animacion {
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes texto {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(0);
+
+    }
+}
+
+.social {
+    display: inline-flex;
+    color: white;
+    height: 48px;
+    width: 48px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0 6px;
+    transition: transform 0.4s;
+
+}
+
+.social:hover {
+    transform: scale(1.3);
+}
