@@ -11,7 +11,7 @@ body {
 }
 
 img{
-    
+
     align-items: center;
     width: 100px;
     margin: 1px;
@@ -60,7 +60,7 @@ p {
 
     }
 }
-
+/* barra de redes sociales */
 .social {
     display: inline-flex;
     color: white;
